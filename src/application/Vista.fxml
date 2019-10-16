@@ -15,5 +15,6 @@
             <Button fx:id="btnSalir" mnemonicParsing="false" onAction="#cerrar" prefHeight="31.0" prefWidth="80.0" styleClass="btnSalir" stylesheets="@application.css" text="Salir" />
          </children>
       </HBox>
+      <Button fx:id="btnCambiarColor" layoutX="79.0" layoutY="336.0" mnemonicParsing="false" onAction="#cambiarColor" styleClass="botones" stylesheets="@application.css" text="Cambiar Color" />
    </children>
 </AnchorPane>
