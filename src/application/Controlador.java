@@ -8,6 +8,11 @@ public class Controlador {
 
 	@FXML
 	private Pane pan;
+	
+	@FXML
+	public void initialize() {
+		pan.setEffect(new GaussianBlur(100));
+	}
 
 	@FXML
 	public void setBlur() {
