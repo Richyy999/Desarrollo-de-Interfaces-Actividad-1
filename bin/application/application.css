@@ -1,0 +1,25 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.fondo{
+	-fx-background-image: url(../foto.jpg);
+	-fx-background-size: 100.0%;
+	-fx-background-repeat: no-repeat;
+}
+
+.btnSalir{
+	-fx-background-color: #1F75F2;
+	-fx-text-fill: white;
+	-fx-border-radius: 10%;
+}
+
+.botones{
+	-fx-background-color: white;
+	-fx-border-color: #1F75F2;
+	-fx-text-fill: #1F75F2;
+	-fx-border-radius: 10%;
+}
+
+.botones:hover{
+	-fx-background-color: #1F75F2;
+	-fx-text-fill: white;
+	-fx-border-radius: 10%;
+}
