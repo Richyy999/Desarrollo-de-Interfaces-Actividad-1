@@ -2,7 +2,7 @@
 .fondo{
 	-fx-background-image: url(../img/foto.jpg);
 	-fx-background-size: 100.0%;
-	-fx-background-repeat: no-repeat;
+	-fx-background-repeat: no-repeat; 
 }
 
 .btnSalir{
