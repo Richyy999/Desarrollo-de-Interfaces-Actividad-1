@@ -10,33 +10,50 @@ import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 
 public class Controlador {
-
+	/**
+	 * Panel
+	 */
 	@FXML
 	private Pane pan;
 
+	/**
+	 * Se ejecuta en la creacion de la vista y añade un efecto blur
+	 */
 	@FXML
 	public void initialize() {
 		pan.setEffect(new GaussianBlur(100));
 	}
 
+	/**
+	 * Añade un blur de 5
+	 */
 	@FXML
 	public void setBlur() {
 		pan.setEffect(new GaussianBlur(5));
 	}
 
+	/**
+	 * Cierra la aplicación
+	 */
 	@FXML
 	public void cerrar() {
 		System.exit(0);
 	}
 
+	/**
+	 * Elimina el efecto blur
+	 */
 	@FXML
 	public void quitarBlur() {
 		pan.setEffect(null);
 	}
 
+	/**
+	 * Cambia el color de fondo en ventana de forma aleatoria
+	 */
 	@FXML
 	public void cambiarColor() {
-		int color= (int)(Math.random() * 10);
+		int color = (int) (Math.random() * 10);
 		switch (color) {
 		case 0:
 			pan.setBackground(new Background(new BackgroundFill(Color.BLUE, CornerRadii.EMPTY, Insets.EMPTY)));
